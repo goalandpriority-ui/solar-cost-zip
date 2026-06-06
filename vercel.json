@@ -2,14 +2,52 @@
   "version": 2,
   "builds": [
     {
-      "src": "index.html",
+      "src": "**/*.html",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
+    { "src": "/blog/how-much-does-solar-cost-2026", "dest": "/blog/how-much-does-solar-cost-2026.html" },
+    { "src": "/blog/federal-solar-tax-credit-2026-guide", "dest": "/blog/federal-solar-tax-credit-2026-guide.html" },
+    { "src": "/blog/solar-payback-period-calculator", "dest": "/blog/solar-payback-period-calculator.html" },
+    { "src": "/blog/solar-net-metering-explained", "dest": "/blog/solar-net-metering-explained.html" },
+    { "src": "/blog/solar-battery-storage-guide-2026", "dest": "/blog/solar-battery-storage-guide-2026.html" },
+    { "src": "/blog/best-solar-panels-2026", "dest": "/blog/best-solar-panels-2026.html" },
+    { "src": "/blog/solar-financing-options-guide", "dest": "/blog/solar-financing-options-guide.html" },
+    { "src": "/blog/solar-installation-process-step-by-step", "dest": "/blog/solar-installation-process-step-by-step.html" },
+    { "src": "/blog/solar-scam-warning-signs-2026", "dest": "/blog/solar-scam-warning-signs-2026.html" },
+    { "src": "/blog/solar-hoa-rules-rights", "dest": "/blog/solar-hoa-rules-rights.html" },
+    { "src": "/blog/solar-energy-savings-calculator-guide", "dest": "/blog/solar-energy-savings-calculator-guide.html" },
+    { "src": "/blog/rooftop-solar-vs-community-solar", "dest": "/blog/rooftop-solar-vs-community-solar.html" },
+    { "src": "/blog/solar-electricity-bill-zero-possible", "dest": "/blog/solar-electricity-bill-zero-possible.html" },
+    { "src": "/blog/solar-roof-requirements-what-you-need", "dest": "/blog/solar-roof-requirements-what-you-need.html" },
+    { "src": "/blog/solar-ev-charging-home-guide", "dest": "/blog/solar-ev-charging-home-guide.html" },
+    { "src": "/blog", "dest": "/blog/index.html" },
+    { "src": "/solar-cost-los-angeles", "dest": "/index.html" },
+    { "src": "/solar-cost-houston", "dest": "/index.html" },
+    { "src": "/solar-cost-phoenix", "dest": "/index.html" },
+    { "src": "/solar-cost-miami", "dest": "/index.html" },
+    { "src": "/solar-cost-new-york", "dest": "/index.html" },
+    { "src": "/solar-cost-chicago", "dest": "/index.html" },
+    { "src": "/solar-cost-san-diego", "dest": "/index.html" },
+    { "src": "/solar-cost-dallas", "dest": "/index.html" },
+    { "src": "/solar-cost-san-antonio", "dest": "/index.html" },
+    { "src": "/solar-cost-austin", "dest": "/index.html" },
+    { "src": "/solar-cost-denver", "dest": "/index.html" },
+    { "src": "/solar-cost-seattle", "dest": "/index.html" },
+    { "src": "/solar-cost-boston", "dest": "/index.html" },
+    { "src": "/solar-cost-san-francisco", "dest": "/index.html" },
+    { "src": "/solar-cost-atlanta", "dest": "/index.html" },
+    { "src": "/solar-cost-las-vegas", "dest": "/index.html" },
+    { "src": "/solar-cost-portland", "dest": "/index.html" },
+    { "src": "/solar-cost-sacramento", "dest": "/index.html" },
+    { "src": "/solar-cost-orlando", "dest": "/index.html" },
+    { "src": "/solar-cost-tampa", "dest": "/index.html" },
+    { "src": "/solar-cost-charlotte", "dest": "/index.html" },
+    { "src": "/solar-cost-raleigh", "dest": "/index.html" },
+    { "src": "/solar-cost-minneapolis", "dest": "/index.html" },
+    { "src": "/solar-cost-nashville", "dest": "/index.html" },
+    { "src": "/solar-cost-washington-dc", "dest": "/index.html" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
