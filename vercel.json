@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "**/*.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
     { "src": "/blog/how-much-does-solar-cost-2026", "dest": "/blog/how-much-does-solar-cost-2026.html" },
     { "src": "/blog/federal-solar-tax-credit-2026-guide", "dest": "/blog/federal-solar-tax-credit-2026-guide.html" },
