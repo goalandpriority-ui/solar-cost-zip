@@ -73,6 +73,8 @@
     { "src": "/solar-cost-new-orleans", "dest": "/cities/solar-cost-new-orleans.html" },
     { "src": "/solar-cost-raleigh", "dest": "/cities/solar-cost-raleigh.html" },
     { "src": "/solar-cost-minneapolis", "dest": "/cities/solar-cost-minneapolis.html" },
+    { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
+{ "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
