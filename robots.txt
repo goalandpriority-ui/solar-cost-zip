@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-
-# Block unnecessary paths
-Disallow: /api/
-Disallow: /*.json$
-
-# Sitemaps
-Sitemap: https://solarcostzip.com/sitemap.xml
