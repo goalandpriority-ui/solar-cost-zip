@@ -75,7 +75,9 @@
     { "src": "/solar-cost-minneapolis", "dest": "/cities/solar-cost-minneapolis.html" },
     { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/robots.txt", "dest": "/robots.txt" },
+    { "src": "/ads.txt", "dest": "/ads.txt" },
     { "src": "/og.png", "dest": "/og.png" },
+    
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
