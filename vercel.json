@@ -6,6 +6,43 @@
       "use": "@vercel/static"
     }
   ],
+  "headers": [
+    {
+      "source": "/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600, s-maxage=3600"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ]
+    },
+    {
+      "source": "/cities/solar-cost-:city.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=7200, s-maxage=86400"
+        }
+      ]
+    },
+    {
+      "source": "/blog/:slug.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, s-maxage=604800"
+        }
+      ]
+    }
+  ],
   "routes": [
     { "src": "/blog/how-much-does-solar-cost-2026", "dest": "/blog/how-much-does-solar-cost-2026.html" },
     { "src": "/blog/federal-solar-tax-credit-2026-guide", "dest": "/blog/federal-solar-tax-credit-2026-guide.html" },
@@ -77,7 +114,6 @@
     { "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/ads.txt", "dest": "/ads.txt" },
     { "src": "/og.png", "dest": "/og.png" },
-    
     { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
